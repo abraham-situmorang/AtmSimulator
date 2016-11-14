@@ -12,6 +12,7 @@ namespace AtmSimulator
         {
             Console.WriteLine("Welcome to ATM Simulator.");
 
+            //set first balance 1000
             decimal balance = 1000;
             bool stop = false;
             while (!stop)
